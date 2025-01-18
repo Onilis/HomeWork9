@@ -13,8 +13,7 @@ public class Main {
         System.out.println("Задача № 2");
 
         int[] expenses = {9887, 9456, 9677, 9545, 9564};
-        int min = Arrays.stream(expenses)
-                .min().getAsInt();
+        int min = Arrays.stream(expenses).min().getAsInt();
         int max = Arrays.stream(expenses).max().getAsInt();
         System.out.println("Минимальная сумма трат за неделю составила " + min + " рублей. Максимальная сумма трат за неделю составила " + max + " рублей");
         System.out.println();
@@ -31,7 +30,7 @@ public class Main {
         System.out.println();
         System.out.println("Задача № 4");
         char[] reverseFullName = {'n', 'a', 'v', 'I', ' ', 'v', 'o', 'n', 'a', 'v', 'I'};
-        for (int i = reverseFullName.length - 1; i >=0; i--) {
+        for (int i = reverseFullName.length - 1; i >= 0; i--) {
             System.out.print(reverseFullName[i]);
         }
     }
